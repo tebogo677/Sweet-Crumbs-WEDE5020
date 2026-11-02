@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a custom cake, cupcake box or pastry order from Sweet Crumbs Bakery. Share your date and details for an estimated price and availability.">
+  <meta name="keywords" content="Sweet Crumbs Bakery, bakery, custom cakes, cupcakes, pastries, South Africa">
+  <meta name="robots" content="index, follow">
+  <title>Custom Cake & Bakery Enquiry | Sweet Crumbs Bakery</title><link rel="canonical" href="https://example.com/enquiry.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap">
+<a class="logo" href="index.html">Sweet <span>Crumbs</span></a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html">Products</a><a class="active" href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<main>
+<section class="page-banner"><div class="container"><p class="eyebrow">ENQUIRY</p><h1>Tell us what you have in mind.</h1><p>Complete the form below for a custom order or general product enquiry.</p></div></section>
+<section class="section"><div class="container form-wrap">
+<form id="enquiryForm" class="form-card" novalidate>
+<label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required minlength="2">
+<label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
+<label for="type">Product or service</label><select id="type" name="type" required><option value="">Select one</option><option value="cake">Celebration cake</option><option value="cupcakes">Cupcake boxes</option><option value="pastry">Pastry boxes</option><option value="general">General enquiry</option></select>
+<label for="quantity">Quantity (items/boxes)</label><input id="quantity" name="quantity" type="number" min="1" max="100" value="1" required>
+<label for="date">Preferred date</label><input id="date" name="date" type="date" required>
+<label for="details">Order details</label><textarea id="details" name="details" rows="5" placeholder="Tell us about flavour, size, colours, quantity and other requirements." required minlength="10"></textarea>
+<div class="estimate-box"><h2>Your estimate</h2><p id="estimateText" aria-live="polite">Choose a product and quantity to see a starting-price estimate.</p><p class="small-note">This is an estimate for the student project, not a confirmed quote or live stock check.</p></div>
+<button class="btn" type="submit">Prepare enquiry email</button>
+<p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+</form>
+</div></section>
+</main>
+<footer><div class="container"><p>© 2026 Sweet Crumbs Bakery. Student website project.</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
