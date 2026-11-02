@@ -160,3 +160,5 @@ Regular descriptive commits should be used when updating the project. Push the f
 - OpenStreetMap contributors. (n.d.). *OpenStreetMap*. Available at: https://www.openstreetmap.org/ (Accessed: 2 November 2026).
 - Sitemap protocol. (n.d.). *Sitemaps XML format*. Available at: https://www.sitemaps.org/protocol.html (Accessed: 2 November 2026).
 - Original SVG graphics: created specifically for this student project.
+Netlify website address https://venerable-muffin-6b0c50.netlify.app/
+https://github.com/tebogo677/Sweet-Crumbs-WEDE5020
